@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Lateef');
+
+#welcome{
+	background: url(images/jbake.jpg) no-repeat center center fixed;
+  	background-size: cover;
+  	height: 40em;
+  	width: 100%;
+  	padding: 15px 10px 10px;
+  	filter: grayscale(100%);
+}
+.jcoo{
+	font-size: 14em;
+}
+#jcoo{
+	font-family: 'Bad Script', cursive;
+	/*padding-bottom: 2em;*/
+}
+
+
+.quote {
+	/*margin: 30px;*/
+	/*padding: 50px;*/
+	font-family: 'Bad Script', cursive;
+	font-size: 34px;
+}
+
+.backcolor{
+	/*background: rgba(171,121,122,0.1);*/
+	background: rgba(67,88,36,0.1);
+	padding: 5em 1em;
+}
+
+.creat {
+	height: 17em;
+	/*width: 18px;*/
+}
+.latestC {
+	padding: 15px;
+	filter: grayscale(80%);
+}
+
+.meal {
+	padding: 10px;
+}
+.mealp img{
+	height: 20em;
+	filter: grayscale(90%);
+}
+
+.insta img{
+	height: 7em;
+	filter: grayscale(100%);
+}
+
+.mealspace{
+	padding: 3px 20px;
+	margin: 4em 0;
+}
+
+.section {
+	padding-bottom: 10em;
+}
+#p {
+	font-family: 'Lateef', cursive;
+	font-size: 1.3em;
+}
+p {
+	font-size: 1.3em;
+}
+.h2 {
+	font-size: 4em;
+}
+
+.about{
+	padding: 7em 1em;
+}
+.jk{
+	width: 80%;
+    text-align: right;
+}
+
+#contactM{
+	background: slategrey;
+	padding: 4em;
+	font-family: 'Lateef', cursive;
+    font-size: 11px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar a {
+  display: inline-block;
+  /*width: 100%;*/
+  margin: 0;
+  padding: 22px 40px;
+  color: green;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+}
+
+/*.btn .btn-default{
+	border: 1px solid darkolivegreen;
+}*/
