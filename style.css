@@ -4,9 +4,11 @@
 	background: url(images/jbake.jpg) no-repeat center center fixed;
   	background-size: cover;
   	height: 40em;
-  	width: 100%;
+  	/*width: 100%;*/
   	padding: 15px 10px 10px;
-  	filter: grayscale(100%);
+  	filter: grayscale(100%) contrast(250%);
+  	/*box-shadow: 0 0 35px;*/
+  	/*margin: 78px 0px 0;*/
 }
 .jcoo{
 	font-size: 14em;
@@ -36,25 +38,67 @@
 }
 .latestC {
 	padding: 15px;
-	filter: grayscale(80%);
+	filter: sepia(100%) contrast(250%);
+	display: block;
+	/*border-radius: 133px;*/
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  height: 91%;
+  /*width: 90%;*/
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(34,34,34,0.7);
+
+    top: 15px;
+    bottom: 0;
+    left: 65px;
+    right: 178px;
+    width: 71%;
 }
 
-.meal {
-	padding: 10px;
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.meal #p{
+	/*padding: 10px;*/
+	
+	padding: 32px 0px;
 }
 .mealp img{
 	height: 20em;
-	filter: grayscale(90%);
+	filter: brightness(260%) contrast(150%);
 }
 
 .insta img{
 	height: 7em;
-	filter: grayscale(100%);
+	filter: grayscale(100%) contrast(250%);
 }
 
 .mealspace{
-	padding: 3px 20px;
+	padding: 3px 100px 3px 20px;
 	margin: 4em 0;
+	text-align: center;
 }
 
 .section {
@@ -81,6 +125,7 @@ p {
 
 #contactM{
 	background: slategrey;
+	/*background: #DA8A67;*/
 	padding: 4em;
 	font-family: 'Lateef', cursive;
     font-size: 11px;
@@ -102,6 +147,26 @@ p {
   color: green;
   text-align: center;
   font-family: 'Bad Script', cursive;
+}
+
+#bigp{
+	padding:7em 12em;
+}
+
+@media only screen and (max-width: 769px) {
+	.hidden img  {
+		display: none;
+	}
+	.jcoo {
+	    font-size: 7em;
+	}
+	.mealspace {
+	    padding: 3px 20px 3px 20px;
+	}
+	#bigp{
+		padding: 7em 3em;
+	}
+
 }
 
 /*.btn .btn-default{
