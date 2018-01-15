@@ -124,8 +124,9 @@ p {
 }
 
 #contactM{
-	background: slategrey;
+	/*background: slategrey;*/
 	/*background: #DA8A67;*/
+	background: rgba(67,88,36,0.1);
 	padding: 4em;
 	font-family: 'Lateef', cursive;
     font-size: 11px;
